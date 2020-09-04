@@ -1,1 +1,168 @@
-/* Add CSS styling here */
+//* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Top Navigation*/
+
+html{
+    border:4px solid #0b0b2e; 
+    margin:5px;
+    background-color:#eff0ce;  
+  }
+  
+  .container{
+      background-image:url("https://naturespathways.com/wp-content/uploads/2018/11/iStock-903948948-616x640.jpg");
+      height:80vh;
+      background-size:cover;
+      background-repeat:no-repeat; 
+  }
+  
+  h1 {
+  color:white;    
+  font-family:'Neucha', regular;
+  text-align:center;
+  margin:5px;
+  padding:5px;    
+    } 
+  
+  nav {
+      margin: 2%;
+      display:flex;
+      justify-content:center;
+     }
+  
+  nav a{
+      display:inline-block;
+      width:9%;
+      text-align:center;
+      border-radius:5px;
+  }
+  
+  nav a:hover{
+      background:#4a0552;
+      color:white;
+  }
+  
+  a{
+      color:black;
+      text-decoration:none;
+  }
+  
+  .box1{
+      border:2px solid black;
+      background-color:#daf7e2;
+  }
+  
+  .box2{
+      border:2px solid black;
+      background-color:#daf7e2;
+  }
+  
+  .box3{
+      border:2px solid black;
+      background-color:#daf7e2;
+  }
+  
+  .box4{
+      border:2px solid black;
+      background-color:#daf7e2;
+  }
+  
+  h2{
+    color:white; 
+    font-family:'Neucha', regular;
+    text-align: center;     
+  }
+  
+  p{
+    color:white;
+    text-align:center;
+    margin:5%;
+    font-family:'Neucha', regular;
+    font-size:20px;  
+  }
+  
+  /*Inspiration*/
+  
+  .lavender img{
+      width:100%;    
+  }
+  
+  /*Apotheke Pics*/
+  
+  .apotheke img{
+      display:flex;
+      justify-content:space-between;
+  }
+  
+  nav img{
+      border:solid black 1px;
+      margin:10px;
+      width:140px;   
+  }
+  
+  .quote{
+      color:#4a0552;
+      margin-top:80px;
+      font-style: italic;
+  }
+  
+  /*Footer*/
+  
+  footer{
+      background-color:#4a0552;
+  }
+  
+  .button{
+      text-align:center;
+  }
+  
+  button:hover{
+      background-color:#ed834e;
+      border-radius:5px;
+  }
